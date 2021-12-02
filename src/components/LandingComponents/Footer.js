@@ -1,8 +1,10 @@
 import React from "react"
+import './Footer.css'
+
 function Footer() {
     return (
-        <footer>
-            <small>© 2021 Ziroll development. All rights reserved.</small>
+        <footer className="footer">
+            © 2021 Matic development. All rights reserved. 
         </footer>
     )
 }
