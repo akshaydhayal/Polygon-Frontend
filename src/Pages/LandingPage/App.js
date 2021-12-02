@@ -2,9 +2,9 @@
  */
  import './App.css';
 
-import Header from "../../components/LandingComponents/Header"
-import MainContent from "../../components/LandingComponents/MainContent"
-import Footer from "../../components/LandingComponents/Footer"
+import Header from "../../components/LandingComponents/Header.js"
+import MainContent from "../../components/LandingComponents/MainContent.js"
+import Footer from "../../components/LandingComponents/Footer.js"
 
 function App() {
     return (
