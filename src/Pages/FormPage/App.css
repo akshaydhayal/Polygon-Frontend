@@ -1,0 +1,11 @@
+.btn-sub{
+    margin-left:100px;
+}
+.form-footer{
+  display:flex;
+  position:fixed;
+  height: 50px;
+  bottom: 0px;
+    width: 100%;
+  margin-bottom: 0px;
+}

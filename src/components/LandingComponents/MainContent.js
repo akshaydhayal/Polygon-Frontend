@@ -1,8 +1,10 @@
 import React from "react"
 import Button from "react-bootstrap/Button";
 import './MainContent.css';
+import { useNavigate, Link } from "react-router-dom";
 
 function MainContent() {
+    let navigate = useNavigate();
     return (
 
            <div className="main">
@@ -20,21 +22,11 @@ function MainContent() {
               <li> NGO project allocation to funds ideally should be voted by beneficiary of such projects</li>
             </ol>
             <div className="button-landing">
-              <Button variant="dark" active>Support Project</Button>
-              <Button variant="dark" active>List Your Project</Button>
+                <Button variant="dark" active>Support Project</Button>
+                <Link to="/form"><Button variant="dark" active>List Your Project</Button></Link>
             </div>
 
         </div>
-        /* <div>
-            <h1>Polygon Landing Page.</h1>
-            <h2>Reasons I'm excited to learn React</h2>
-            <ol>
-                <li>It's a popular library, so I'll be 
-                able to fit in with the cool kids!</li>
-                <li>I'm more likely to get a job as a developer
-                if I know React</li>
-            </ol>
-        </div> */
     )
 }
 export default MainContent
