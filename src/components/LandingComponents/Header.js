@@ -11,11 +11,9 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 function Header() {
     return (
         <Navbar bg="dark" variant="dark">
-        <img className="navv-logo1"
-        src="https://image.shutterstock.com/image-vector/minimalist-simple-modern-ocean-sun-260nw-1892993923.jpg"
-        width="30px" margin-right="10px"
-        alt="React Bootstrap logo"
-      />
+          <img className="navv-logo1" src="https://image.shutterstock.com/image-vector/minimalist-simple-modern-ocean-sun-260nw-1892993923.jpg"
+        width="30px" margin-right="10px" alt="React Bootstrap logo"
+          />
         <Navbar.Brand href="#home">Polygon</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
@@ -40,16 +38,6 @@ function Header() {
 
         </Navbar.Collapse>
       </Navbar>
-        /*<header>
-            <nav className="nav">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png" className="nav-logo" />
-                <ul className="nav-items">
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
-        </header>*/
     )
 }
 export default Header
