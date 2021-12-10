@@ -22,8 +22,12 @@ function MainContent() {
               <li> NGO project allocation to funds ideally should be voted by beneficiary of such projects</li>
             </ol>
             <div className="button-landing">
-                <Button variant="dark" active>Support Project</Button>
-                <Link to="/form"><Button variant="dark" active>List Your Project</Button></Link>
+                <Link to="/projects">
+                    <Button variant="dark" active>Support Project</Button>
+                </Link>
+                <Link to="/form">
+                    <Button variant="dark" active>List Your Project</Button>
+                </Link>
             </div>
 
         </div>

@@ -1,0 +1,42 @@
+.card{
+    display:flex;
+    flex-direction:row;
+    border:1px solid grey;
+    border-radius:20px;
+    margin:15px;
+    margin-left:45px;
+    padding:10px;
+    width:90%;
+}
+.card:hover{
+    /* color:#000066; */
+    background-color:#D3e8e8;
+    width:91%;
+}
+
+.ngoLogo{
+    margin:10px;
+}
+.card-details{
+    margin-left:25px;
+}
+.gray{
+    color:grey;
+}
+.card-meta{
+    display:flex;
+    flex-direction:row; 
+    justify-content:space-between;
+   
+}
+ .card-date{
+    position:relative;
+/*     right:220px;
+ */} 
+.card-fund{
+    display:flex;
+    flex-direction:row;
+}
+.btn-sub{
+    margin-left:610px;
+}
