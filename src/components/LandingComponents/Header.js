@@ -8,6 +8,7 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import FormControl from "react-bootstrap/FormControl";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { useNavigate, Link } from "react-router-dom";
 
 function Header() {
 
@@ -63,10 +64,10 @@ function Header() {
 
     return (
         <Navbar bg="dark" variant="dark">
-          <img className="navv-logo1" src="https://image.shutterstock.com/image-vector/minimalist-simple-modern-ocean-sun-260nw-1892993923.jpg"
-        width="30px" margin-right="10px" alt="React Bootstrap logo"
-          />
-        <Navbar.Brand href="#home">Polygon</Navbar.Brand>
+          <Link to="/"><img className="navv-logo1" src="https://image.shutterstock.com/image-vector/minimalist-simple-modern-ocean-sun-260nw-1892993923.jpg"
+        width="30px" margin-right="10px" alt="React Bootstrap logo"/>
+        </Link>
+        <Link to="/"><Navbar.Brand href="">Polygon</Navbar.Brand></Link>
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className="mr-auto">
