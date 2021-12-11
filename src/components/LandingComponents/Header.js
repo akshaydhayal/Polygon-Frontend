@@ -64,10 +64,12 @@ function Header() {
 
     return (
         <Navbar bg="dark" variant="dark">
-          <Link to="/"><img className="navv-logo1" src="https://image.shutterstock.com/image-vector/minimalist-simple-modern-ocean-sun-260nw-1892993923.jpg"
+{/*         //https://image.shutterstock.com/image-vector/minimalist-simple-modern-ocean-sun-260nw-1892993923.jpg
+ */}          
+        <Link to="/"><img className="navv-logo1" src="https://lh3.googleusercontent.com/pw/AM-JKLW2LNuUZnvuejSFRd7E2tlyhrIj3I4InHj-02DCCYm20V_fCNLgl4ffvKGze5i81VSlf334LDlEuFySpnhqqYUOVLDlaXycLKe29PGI4bhde_wzZ17HUQdqMVxlnWppu0SBM3gQYRavRJKtf1cHUC_I2Q=w265-h264-no"
         width="30px" margin-right="10px" alt="React Bootstrap logo"/>
         </Link>
-        <Link to="/"><Navbar.Brand href="">Polygon</Navbar.Brand></Link>
+        <Link to="/"><Navbar.Brand href="">QUAD</Navbar.Brand></Link>
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className="mr-auto">

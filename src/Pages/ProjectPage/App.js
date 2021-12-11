@@ -22,7 +22,8 @@ function App() {
    
             <Project item={Data[0]}/>
             <Project item={Data[1]}/>
-            <Project item={Data[2]}/> 
+            <Project item={Data[2]}/>
+            <Project item={Data[3]}/>  
         </div>
     )
 }
