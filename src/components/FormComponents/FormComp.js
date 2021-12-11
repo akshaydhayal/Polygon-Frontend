@@ -26,12 +26,16 @@ function FormComp() {
 		.then((response) => {
 			console.log(response);
 		});
+    alert("Congrats, your Project has been Submitted and will be listed after Verification in 24 hours.!");
+
 	};
 
     return (
         <div>
 
             <Form>
+
+            
                 <Row className="mb-3">
                     <Form.Group as={Col} controlId="formGridNGOName">
                     <Form.Label>NGO Name</Form.Label>

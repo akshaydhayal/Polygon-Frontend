@@ -9,6 +9,7 @@ import Button from "react-bootstrap/Button";
 import FormControl from "react-bootstrap/FormControl";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { useNavigate, Link } from "react-router-dom";
+import "./Header.css";
 
 function Header() {
 
@@ -73,14 +74,16 @@ function Header() {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#foo">Team</Nav.Link>
+
             <NavDropdown title="Project">
-              <NavDropdown.Item href="#action/1">action 1</NavDropdown.Item>
-              <NavDropdown.Item href="#action/2">action 2</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3">action 3</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/4">action 4</NavDropdown.Item>
+              <NavDropdown.Item className="nav-link">
+                  <Link to="/projects">Support Project</Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item className="nav-link">
+                  <Link to="/form">List Project</Link>
+              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
           
