@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react';
 import { useEffect, useState } from 'react';
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -10,6 +10,8 @@ import FormControl from "react-bootstrap/FormControl";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { useNavigate, Link } from "react-router-dom";
 import "./Header.css";
+import { AccordionButton } from "react-bootstrap";
+
 
 function Header() {
 
@@ -61,7 +63,14 @@ function Header() {
 
     useEffect(() => {
     checkWalletIsConnected();
+
+
   }, [])
+
+
+
+
+  
 
     return (
         <Navbar bg="dark" variant="dark">
