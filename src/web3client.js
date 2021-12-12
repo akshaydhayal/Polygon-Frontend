@@ -10,7 +10,9 @@ let timelockcontract;
 
 let isInitialized = false;
 
+
 export const init = async() =>{
+    const { ethereum } = window;
     let provider = window.ethereum;
     const accounts = await ethereum.request({ method: 'eth_accounts' });
     selectedAccounts= accounts[0];
